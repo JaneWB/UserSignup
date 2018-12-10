@@ -12,7 +12,7 @@ namespace UserSignup.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Redirect("/User/Add");
         }
 
         public IActionResult About()
